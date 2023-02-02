@@ -1,0 +1,33 @@
+body {
+    position: relative;
+    background: #292929;
+}
+
+#name {
+    position: absolute;
+    left: 50%;
+    top: 159px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Babylonica';
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 130.548px;
+    line-height: 173px;
+}
+#occu {
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Audiowide';
+    color: rgb(255, 255, 255, 0.65);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.0022px;
+    line-height: 50%;
+}
