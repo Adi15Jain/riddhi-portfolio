@@ -1,3 +1,5 @@
+/* Home Page */
+
 *, html, body {
     box-sizing: border-box;
     margin: 0;
@@ -88,6 +90,38 @@ a {
     right: 0;
 }
 
+/* Portfolio page */
+
+.images {
+    width: 100vw;
+    height: 54vh;
+    position: absolute;
+    /* padding: 1.5rem; */
+    left: 0;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-button {
+    height: 100%;
+    width: 33.33%; 
+    padding: 0.5rem;
+}
+
+.cateportf {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10vh;
+    font-family: 'Barriecito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50.8829px;
+    color: #FFFFFF;
+}
+
 /* #main {
     position: absolute;
     width: 770px;
@@ -99,8 +133,8 @@ a {
 
 
 
-/* 
-#abt {
+
+/* #abt {
     position: absolute;
     max-width: 844px;
     text-align: center;
@@ -112,16 +146,7 @@ a {
     font-size: 31.2406px;
     color: #FFFFFF;
 }
-#cateportf {
-    position: absolute;
-    left: 500px;
-    top: 50%;
-    font-family: 'Barriecito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50.8829px;
-    color: #FFFFFF;
-}
+
 #home {
     position: absolute;
 
@@ -159,5 +184,4 @@ a {
     background: #292929;
     z-index: -100;
 }
-
  */
