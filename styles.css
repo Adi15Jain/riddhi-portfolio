@@ -94,20 +94,21 @@ a {
 
 .images {
     width: 100vw;
-    height: 54vh;
+    height: 65vh;
     position: absolute;
-    /* padding: 1.5rem; */
+    padding: 1.5rem;
     left: 0;
     bottom: 30px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .img-button {
     height: 100%;
     width: 33.33%; 
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .cateportf {
@@ -122,6 +123,44 @@ a {
     color: #FFFFFF;
 }
 
+.abt {
+    /* position: absolute; */
+    text-align: center;
+    top: 47.42%;
+    left: 50%;
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.2406px;
+    color: #FFFFFF;
+}
+
+.rect53 {
+    position: absolute;
+    width: 100vw;
+    bottom: -10vh;
+    left: 0;
+    z-index: -1;
+}
+
+.rect1 {
+    position: absolute;
+    top: -5vh;
+    left: -5vh;
+    transform: scale(.9);
+    z-index: -1;
+    background-color: #292929;
+    color: #292929;
+}
+
+.rect2 {
+    position: absolute;
+    left: 140vh;
+    top: 40vh;
+    transform: scale(0.83);
+    /* transform: rotate(-57.87deg); */
+}
+
 /* #main {
     position: absolute;
     width: 770px;
@@ -134,19 +173,8 @@ a {
 
 
 
-/* #abt {
-    position: absolute;
-    max-width: 844px;
-    text-align: center;
-    top: 40%;
-    left: 350px;
-    font-family: 'Audiowide';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 31.2406px;
-    color: #FFFFFF;
-}
 
+/*
 #home {
     position: absolute;
 
